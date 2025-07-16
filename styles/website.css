@@ -51,6 +51,7 @@ color: #4E47FF;
     padding: 80px 50px;
     text-align: center;
     margin: 130px;
+    
 }
 .section-title{
     font-size: 42px;
@@ -99,4 +100,105 @@ nav ul li {
 .item-title{
 font-size: 80px;
 font-weight: bolder;
+color: #4E47FF;
 }
+.text-center{
+text-align: justify;
+}
+.section-user{
+    font-size: 42px;
+    font-weight: bold;
+}
+/* skills styles */
+.skills-container{
+    display: flex;
+    margin: 30px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.riz{
+    font-weight: bolder;
+    font-size: large;
+}
+    .riz-z{
+    font-weight:900 ;
+    font-size: xx-large;
+}
+footer{
+    padding:130px 230px ;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] , footer input[type="email"] ,footer textarea{ 
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+.section-tit{
+    font-size: 22px;
+    font-size: medium;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  color: #a1a1aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 80px;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #a1a1aa;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #a1a1aa;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #6366f1;
+}
+
